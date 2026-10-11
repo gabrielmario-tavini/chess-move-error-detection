@@ -1,0 +1,10 @@
+# model weights: published as a GitHub Release, not committed
+*.h5
+# uncompressed data (the repo ships the .csv.gz files)
+data/*.csv
+# notebook and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+# credentials
+kaggle.json
+.env
